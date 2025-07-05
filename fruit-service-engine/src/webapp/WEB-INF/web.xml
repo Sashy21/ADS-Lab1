@@ -1,0 +1,62 @@
+<web-app xmlns="http://xmlns.jcp.org/xml/ns/javaee" 
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+         xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee 
+         http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd" 
+         version="3.1">
+
+    <servlet>
+        <servlet-name>AddFruitServlet</servlet-name>
+        <servlet-class>server.servlets.AddFruitServlet</servlet-class>
+    </servlet>
+    
+    <servlet>
+        <servlet-name>UpdateFruitServlet</servlet-name>
+        <servlet-class>server.servlets.UpdateFruitServlet</servlet-class>
+    </servlet>
+    
+    <servlet>
+        <servlet-name>DeleteFruitServlet</servlet-name>
+        <servlet-class>server.servlets.DeleteFruitServlet</servlet-class>
+    </servlet>
+    
+    <servlet>
+        <servlet-name>CalculateCostServlet</servlet-name>
+        <servlet-class>server.servlets.CalculateCostServlet</servlet-class>
+    </servlet>
+    
+    <servlet>
+        <servlet-name>ReceiptServlet</servlet-name>
+        <servlet-class>server.servlets.ReceiptServlet</servlet-class>
+    </servlet>
+    
+    <servlet-mapping>
+        <servlet-name>AddFruitServlet</servlet-name>
+        <url-pattern>/addFruit</url-pattern>
+    </servlet-mapping>
+    
+    <servlet-mapping>
+        <servlet-name>UpdateFruitServlet</servlet-name>
+        <url-pattern>/updateFruit</url-pattern>
+    </servlet-mapping>
+    
+    <servlet-mapping>
+        <servlet-name>DeleteFruitServlet</servlet-name>
+        <url-pattern>/deleteFruit</url-pattern>
+    </servlet-mapping>
+    
+    <servlet-mapping>
+        <servlet-name>CalculateCostServlet</servlet-name>
+        <url-pattern>/calculateCost</url-pattern>
+    </servlet-mapping>
+    
+    <servlet-mapping>
+        <servlet-name>ReceiptServlet</servlet-name>
+        <url-pattern>/generateReceipt</url-pattern>
+    </servlet-mapping>
+
+    <!-- Default welcome file -->
+    <welcome-file-list>
+        <welcome-file>index.html</welcome-file>
+    </welcome-file-list>
+
+</web-app>
