@@ -3,7 +3,8 @@
          xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee 
          http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd" 
          version="3.1">
-
+// This is the web.xml configuration file for the Fruit Service Engine
+// It defines the servlets and their mappings for handling fruit-related operations
     <servlet>
         <servlet-name>AddFruitServlet</servlet-name>
         <servlet-class>server.servlets.AddFruitServlet</servlet-class>

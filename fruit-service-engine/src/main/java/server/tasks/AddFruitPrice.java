@@ -8,6 +8,7 @@ import model.FruitPrice;
 import server.interfaces.Compute;
 import server.interfaces.Task;
 
+// This task is responsible for adding a fruit price to the remote compute engine
 public class AddFruitPrice implements Task<String> {
     private FruitPrice fruitPrice;
 

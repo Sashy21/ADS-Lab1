@@ -11,6 +11,7 @@ import javax.servlet.http.HttpServletResponse;
 import server.FruitComputeTaskRegistry;
 import server.tasks.DeleteFruitPrice;
 
+// This servlet handles the deletion of fruit prices from the registry
 @WebServlet("/deleteFruit")
 public class DeleteFruitServlet extends HttpServlet {
     private static final long serialVersionUID = 1L;

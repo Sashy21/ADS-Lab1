@@ -6,7 +6,7 @@ import java.rmi.registry.Registry;
 
 import server.interfaces.Compute;
 import server.interfaces.Task;
-
+// This task is responsible for deleting a fruit price from the remote compute engine
 public class DeleteFruitPrice implements Task<String> {
     private final String fruitName;
 

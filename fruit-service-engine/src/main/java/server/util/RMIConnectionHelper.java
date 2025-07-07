@@ -5,6 +5,8 @@ import java.rmi.registry.Registry;
 
 import server.FruitComputeEngine;
 
+// This class provides a utility to establish a connection to the RMI registry
+// and retrieve the FruitComputeEngine instance.
 public class RMIConnectionHelper {
     private static final String DEFAULT_HOST = "localhost";
     private static final int DEFAULT_PORT = 1099;

@@ -10,6 +10,7 @@ import javax.servlet.http.HttpServletResponse;
 
 import model.Receipt;
 
+// This servlet handles the generation of a receipt after a transaction
 @WebServlet("/receipt")
 public class ReceiptServlet extends HttpServlet {
     private static final long serialVersionUID = 1L;

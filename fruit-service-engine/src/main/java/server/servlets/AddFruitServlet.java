@@ -15,6 +15,7 @@ import model.FruitPrice;
 import server.FruitComputeEngine;
 import server.tasks.AddFruitPrice;
 
+// This servlet handles adding fruit prices to the remote compute engine
 @WebServlet("/addFruit")
 public class AddFruitServlet extends HttpServlet {
     private FruitComputeEngine computeEngine;

@@ -3,6 +3,7 @@ package server.interfaces;
 import java.rmi.Remote;
 import java.rmi.RemoteException;
 
+//To be implemented to handle fruit operations remotely
 public interface Compute extends Remote {
     <T> T executeTask(Task<T> task) throws RemoteException;
     void addFruitPrice(String fruitName, double price) throws RemoteException;

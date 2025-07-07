@@ -12,6 +12,9 @@ import java.rmi.registry.Registry;
 
 import server.interfaces.Compute;
 
+// FruitRestBridge is a simple HTTP server that acts as a bridge between a RESTful API and an RMI-based compute engine.
+// It listens for HTTP requests, processes them, and forwards the necessary actions to the RMI compute engine.
+// It supports CORS for web interface compatibility and handles various fruit-related operations
 public class FruitRestBridge {
     private static final int PORT = 8081;
     private static Compute computeEngine;

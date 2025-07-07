@@ -2,6 +2,7 @@ package model;
 
 import java.io.Serializable;
 
+//To show the price of fruits
 public class FruitPrice implements Serializable {
     private static final long serialVersionUID = 1L;
     private String fruitName;

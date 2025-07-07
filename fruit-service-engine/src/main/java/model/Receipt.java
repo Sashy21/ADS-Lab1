@@ -9,6 +9,7 @@ public class Receipt implements Serializable {
     private final double changeDue;
     private final String cashier;
 
+    //To show the receipt details
     public Receipt(double totalCost, double amountGiven, double changeDue, String cashier) {
         this.totalCost = totalCost;
         this.amountGiven = amountGiven;

@@ -11,6 +11,7 @@ import javax.servlet.http.HttpServletResponse;
 import server.FruitComputeTaskRegistry;
 import server.tasks.UpdateFruitPrice;
 
+// This servlet handles the updating of fruit prices in the registry
 @WebServlet("/updateFruit")
 public class UpdateFruitServlet extends HttpServlet {
     private static final long serialVersionUID = 1L;

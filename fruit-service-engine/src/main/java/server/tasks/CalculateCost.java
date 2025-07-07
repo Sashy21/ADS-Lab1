@@ -8,6 +8,9 @@ import model.Receipt;
 import server.interfaces.Compute;
 import server.interfaces.Task;
 
+// This task is responsible for calculating the cost of fruits based on the quantity and fruit name
+//combined with CalFruitcost
+// It also generates a receipt with the total cost, amount given, and change due
 public class CalculateCost implements Task<Receipt> {
     private final String fruitName;
     private final int quantity;

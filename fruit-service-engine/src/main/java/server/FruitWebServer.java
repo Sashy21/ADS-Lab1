@@ -23,6 +23,8 @@ import server.tasks.CalculateCost;
 import server.tasks.DeleteFruitPrice;
 import server.tasks.UpdateFruitPrice;
 
+// This class implements a simple HTTP server that serves a web interface for managing fruit prices
+// and calculating costs. It connects to a remote RMI compute engine to perform operations
 public class FruitWebServer {
     private static final int PORT = 8080;
     private static FruitComputeEngine computeEngine;

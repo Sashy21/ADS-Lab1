@@ -6,7 +6,7 @@ import java.rmi.registry.Registry;
 
 import server.interfaces.Compute;
 import server.interfaces.Task;
-
+// This task is responsible for updating the price of a fruit in the remote compute engine
 public class UpdateFruitPrice implements Task<String> {
     private final String fruitName;
     private final double newPrice;

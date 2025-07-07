@@ -1,0 +1,27 @@
+# Maven build directory
+target/
+
+# IDE files
+.idea/
+.vscode/
+*.iml
+*.ipr
+*.iws
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Java compiled files
+*.class
+*.jar
+*.war
+*.ear
+
+# Log files
+*.log

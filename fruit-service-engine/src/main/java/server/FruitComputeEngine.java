@@ -12,6 +12,8 @@ import java.util.Map;
 import server.interfaces.Compute;
 import server.interfaces.Task;
 
+// This class implements the Compute interface and provides methods to manage fruit prices,
+// calculate costs, and generate receipts. It acts as the RMI server for the fruit service
 public class FruitComputeEngine extends UnicastRemoteObject implements Compute {
     private final Map<String, Double> fruitPriceTable;
 

@@ -12,6 +12,7 @@ import model.Receipt;
 import server.FruitComputeTaskRegistry;
 import server.tasks.CalculateCost;
 
+// This servlet handles the calculation of fruit costs based on user input
 @WebServlet("/calculateCost")
 public class CalculateCostServlet extends HttpServlet {
     private static final long serialVersionUID = 1L;

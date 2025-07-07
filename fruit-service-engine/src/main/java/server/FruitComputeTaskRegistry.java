@@ -12,6 +12,8 @@ import model.FruitPrice;
 import server.interfaces.Compute;
 import server.interfaces.Task;
 
+// This class serves as a registry for fruit compute tasks, allowing clients to execute tasks
+// such as adding, updating, deleting fruit prices, calculating costs, and managing a shopping cart
 public class FruitComputeTaskRegistry {
 
     private Compute computeEngine;
